@@ -1,0 +1,26 @@
+[
+  { "id": "sp-1", "category": "social", "tone": "professional", "text": "Regrettably, my personal engagement bandwidth has reached zero capacity for this cycle.", "verdict": "Declined gracefully" },
+  { "id": "sp-2", "category": "social", "tone": "professional", "text": "I must prioritize restorative cognitive downtime to optimize future interpersonal ROI.", "verdict": "Social solvency protection" },
+  { "id": "sp-3", "category": "social", "tone": "professional", "text": "A conflicting wellness audit requires my immediate presence on the living room sofa.", "verdict": "Couch audit in progress" },
+
+  { "id": "sc-1", "category": "social", "tone": "casual", "text": "I already put on sweatpants and once the waistband expands, I cannot leave the house.", "verdict": "Sweatpant lock-in confirmed" },
+  { "id": "sc-2", "category": "social", "tone": "casual", "text": "My cat fell asleep on my lap and disturbing feline slumber violates international treaties.", "verdict": "Feline hostage situation" },
+  { "id": "sc-3", "category": "social", "tone": "casual", "text": "My social battery is at 2% and the charging cable is in another dimension.", "verdict": "Low battery power mode" },
+
+  { "id": "sd-1", "category": "social", "tone": "dramatic", "text": "The harsh daylight of the outside realm threatens to burn my delicate reclusive soul!", "verdict": "Vampiric hermit status" },
+  { "id": "sd-2", "category": "social", "tone": "dramatic", "text": "My soul is an island of tempestuous melancholy; cast no anchors here!", "verdict": "Byronic brooding certified" },
+
+  { "id": "su-1", "category": "social", "tone": "unhinged", "text": "I cannot leave because I am teaching my house spider the fundamentals of calculus.", "verdict": "Arachnid tutoring session" },
+  { "id": "su-2", "category": "social", "tone": "unhinged", "text": "The moon warned me that stepping outside tonight will transform me into a toaster.", "verdict": "Appliance metamorphosis" },
+  { "id": "su-3", "category": "social", "tone": "unhinged", "text": "I am buffering. Current progress: 14% of human personality loaded.", "verdict": "Buffering circle spinning" },
+
+  { "id": "pr-1", "category": "productivity", "tone": "professional", "text": "I am optimizing strategic inaction to preserve baseline operational stamina.", "verdict": "Procrastination as a KPI" },
+  { "id": "pr-2", "category": "productivity", "tone": "casual", "text": "I opened the to-do list, glared at item #1, and took a three-hour nap out of spite.", "verdict": "Spiteful slumber" },
+  { "id": "pr-3", "category": "productivity", "tone": "dramatic", "text": "Each checked box on my checklist draws blood from the phantom heart of my muse!", "verdict": "Checklist trauma" },
+  { "id": "pr-4", "category": "productivity", "tone": "unhinged", "text": "My Pomodoro timer began speaking Latin and demanded a sacrifice of almond croissants.", "verdict": "Tomato occult ritual" },
+
+  { "id": "ra-1", "category": "random", "tone": "unhinged", "text": "A localized gravitational anomaly pulled my face directly into this soft pillow.", "verdict": "Astrophysical slumber" },
+  { "id": "ra-2", "category": "random", "tone": "casual", "text": "I sneezed and forgot the entire purpose of my existence for 12 solid minutes.", "verdict": "Nasal reboot sequence" },
+  { "id": "ra-3", "category": "random", "tone": "dramatic", "text": "The universe whispered 'Not today, mortal,' and who am I to challenge fate?", "verdict": "Cosmic mandate obeyed" },
+  { "id": "ra-4", "category": "random", "tone": "professional", "text": "Telemetry indicates anomalous interference from ambient potato vibrations.", "verdict": "Starch resonance verified" }
+]

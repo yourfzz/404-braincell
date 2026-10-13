@@ -1,0 +1,422 @@
+[
+  {
+    "id": "wip-1",
+    "category": "work",
+    "tone": "professional",
+    "text": "Dengan hormat, bandwidth mental saya sedang throttling akibat overload konteks kerja.",
+    "verdict": "Masih terdengar korporat"
+  },
+  {
+    "id": "wip-2",
+    "category": "work",
+    "tone": "professional",
+    "text": "Saya perlu melakukan kalibrasi prioritas sebelum mengeksekusi deliverable ini.",
+    "verdict": "Buzzword aman"
+  },
+  {
+    "id": "wip-3",
+    "category": "work",
+    "tone": "professional",
+    "text": "Task ini masuk antrian deep work setelah proses recovery neuron selesai.",
+    "verdict": "SLA hampir selamat"
+  },
+  {
+    "id": "wic-1",
+    "category": "work",
+    "tone": "casual",
+    "text": "Laptop aku bunyinya kayak mau take off, jadi aku kasih dia space dulu.",
+    "verdict": "Hardware butuh healing"
+  },
+  {
+    "id": "wic-2",
+    "category": "work",
+    "tone": "casual",
+    "text": "Aku udah buka dokumennya, terus dokumennya menatap balik. Aku kalah.",
+    "verdict": "Vibe check gagal"
+  },
+  {
+    "id": "wic-3",
+    "category": "work",
+    "tone": "casual",
+    "text": "Slack rame banget sampai social battery kantor aku lowbat.",
+    "verdict": "Korban notif"
+  },
+  {
+    "id": "wid-1",
+    "category": "work",
+    "tone": "dramatic",
+    "text": "Spreadsheet itu memanggilku, namun jiwaku memilih tenggelam dalam rebahan.",
+    "verdict": "Tragedi Excel"
+  },
+  {
+    "id": "wid-2",
+    "category": "work",
+    "tone": "dramatic",
+    "text": "Deadline datang seperti meteor, dan aku hanyalah dinosaurus kecil yang mager.",
+    "verdict": "Kiamat produktivitas"
+  },
+  {
+    "id": "wid-3",
+    "category": "work",
+    "tone": "dramatic",
+    "text": "Presentasi ini terlalu berat untuk pundak hamba yang cuma punya satu braincell.",
+    "verdict": "Drama Q4"
+  },
+  {
+    "id": "wiu-1",
+    "category": "work",
+    "tone": "unhinged",
+    "text": "Printer kantor berbisik bahwa hari ini bukan hari yang baik untuk bekerja.",
+    "verdict": "Konspirasi LaserJet"
+  },
+  {
+    "id": "wiu-2",
+    "category": "work",
+    "tone": "unhinged",
+    "text": "Keyboardku mogok dan cuma mau ngetik huruf vokal kapital.",
+    "verdict": "Serikat pekerja tombol"
+  },
+  {
+    "id": "wiu-3",
+    "category": "work",
+    "tone": "unhinged",
+    "text": "Aku barter deliverable dengan energi badut digital di dimensi sebelah.",
+    "verdict": "Absurd tapi tegas"
+  },
+  {
+    "id": "cip-1",
+    "category": "college",
+    "tone": "professional",
+    "text": "Saya sedang melakukan validasi akademik terhadap urgensi tugas ini sebelum submit.",
+    "verdict": "Terdengar seperti email dosen"
+  },
+  {
+    "id": "cip-2",
+    "category": "college",
+    "tone": "professional",
+    "text": "Koneksi kampus mengalami instabilitas sehingga produktivitas saya masuk mode aman.",
+    "verdict": "WiFi disalahkan"
+  },
+  {
+    "id": "cip-3",
+    "category": "college",
+    "tone": "professional",
+    "text": "Referensi saya perlu sinkronisasi ulang demi integritas sitasi.",
+    "verdict": "APA trauma"
+  },
+  {
+    "id": "cic-1",
+    "category": "college",
+    "tone": "casual",
+    "text": "Group project ribut soal font, jadi aku mute demi kesehatan mental.",
+    "verdict": "Tipografi berbahaya"
+  },
+  {
+    "id": "cic-2",
+    "category": "college",
+    "tone": "casual",
+    "text": "Aku ke perpus lima jam, beli minum, terus cuma nulis judul.",
+    "verdict": "Turis perpustakaan"
+  },
+  {
+    "id": "cic-3",
+    "category": "college",
+    "tone": "casual",
+    "text": "Alarm bunyi, tapi selimut nge-stun aku critical hit.",
+    "verdict": "Dikuasai kasur"
+  },
+  {
+    "id": "cid-1",
+    "category": "college",
+    "tone": "dramatic",
+    "text": "Dokumen kosong itu berkedip mengejek masa depanku.",
+    "verdict": "Cursor villain"
+  },
+  {
+    "id": "cid-2",
+    "category": "college",
+    "tone": "dramatic",
+    "text": "Wahai kalkulus, mengapa engkau berbicara dalam bahasa alien?",
+    "verdict": "Kutukan matematika"
+  },
+  {
+    "id": "cid-3",
+    "category": "college",
+    "tone": "dramatic",
+    "text": "IPK-ku berdiri di tepi jurang sambil melambaikan tangan.",
+    "verdict": "Melodrama kampus"
+  },
+  {
+    "id": "ciu-1",
+    "category": "college",
+    "tone": "unhinged",
+    "text": "Kucing kos menginjak keyboard dan mengirim assignment ke alam astral.",
+    "verdict": "Upload metafisik"
+  },
+  {
+    "id": "ciu-2",
+    "category": "college",
+    "tone": "unhinged",
+    "text": "Kalkulatorku mulai meramal kiamat bukannya menghitung integral.",
+    "verdict": "TI-84 kerasukan"
+  },
+  {
+    "id": "ciu-3",
+    "category": "college",
+    "tone": "unhinged",
+    "text": "Aku ubah essay jadi interpretive dance tapi LMS tidak mendukung upload rasa.",
+    "verdict": "Seni ditolak sistem"
+  },
+  {
+    "id": "sip-1",
+    "category": "social",
+    "tone": "professional",
+    "text": "Kapasitas interaksi sosial saya sedang penuh dan membutuhkan maintenance terjadwal.",
+    "verdict": "Decline elegan"
+  },
+  {
+    "id": "sip-2",
+    "category": "social",
+    "tone": "professional",
+    "text": "Saya harus memprioritaskan pemulihan energi interpersonal untuk performa masa depan.",
+    "verdict": "Healing resmi"
+  },
+  {
+    "id": "sip-3",
+    "category": "social",
+    "tone": "professional",
+    "text": "Ada audit wellness internal yang mengharuskan saya hadir di sofa rumah.",
+    "verdict": "ROI rebahan"
+  },
+  {
+    "id": "sic-1",
+    "category": "social",
+    "tone": "casual",
+    "text": "Aku udah pakai baju rumah. Setelah ini, keluar rumah melanggar hukum vibe.",
+    "verdict": "Sweatpants lock-in"
+  },
+  {
+    "id": "sic-2",
+    "category": "social",
+    "tone": "casual",
+    "text": "Social battery aku 2% dan charger-nya ada di dimensi lain.",
+    "verdict": "Mode hemat daya"
+  },
+  {
+    "id": "sic-3",
+    "category": "social",
+    "tone": "casual",
+    "text": "Aku mau ikut, tapi kasur memanggil namaku dengan lembut.",
+    "verdict": "Dipanggil takdir"
+  },
+  {
+    "id": "sid-1",
+    "category": "social",
+    "tone": "dramatic",
+    "text": "Cahaya luar terlalu menyilaukan untuk jiwa introvertku yang rapuh.",
+    "verdict": "Vampir lokal"
+  },
+  {
+    "id": "sid-2",
+    "category": "social",
+    "tone": "dramatic",
+    "text": "Malam ini hatiku adalah pulau sepi; jangan sandarkan kapal rencana di sini.",
+    "verdict": "Penyair mager"
+  },
+  {
+    "id": "sid-3",
+    "category": "social",
+    "tone": "dramatic",
+    "text": "Ajakan nongkrong itu datang saat energiku tinggal serpihan debu.",
+    "verdict": "Tragedi tongkrongan"
+  },
+  {
+    "id": "siu-1",
+    "category": "social",
+    "tone": "unhinged",
+    "text": "Aku tidak bisa keluar karena sedang ngajarin cicak kamar konsep pajak progresif.",
+    "verdict": "Tutor reptil"
+  },
+  {
+    "id": "siu-2",
+    "category": "social",
+    "tone": "unhinged",
+    "text": "Bulan bilang kalau aku keluar malam ini, aku berubah jadi rice cooker.",
+    "verdict": "Ramalan peralatan dapur"
+  },
+  {
+    "id": "siu-3",
+    "category": "social",
+    "tone": "unhinged",
+    "text": "Kepribadian manusia aku masih buffering 14%.",
+    "verdict": "Loading sosial"
+  },
+  {
+    "id": "pip-1",
+    "category": "productivity",
+    "tone": "professional",
+    "text": "Saya sedang mengoptimalkan inaksi strategis untuk menjaga stamina operasional.",
+    "verdict": "Prokrastinasi sebagai KPI"
+  },
+  {
+    "id": "pip-2",
+    "category": "productivity",
+    "tone": "professional",
+    "text": "Tugas ini membutuhkan alignment antara niat, energi, dan snack availability.",
+    "verdict": "Manajemen niat"
+  },
+  {
+    "id": "pip-3",
+    "category": "productivity",
+    "tone": "professional",
+    "text": "Saya menunda sebagai bentuk risk mitigation terhadap burnout dini.",
+    "verdict": "Corporate mager"
+  },
+  {
+    "id": "pic-1",
+    "category": "productivity",
+    "tone": "casual",
+    "text": "Aku buka to-do list, lihat item pertama, lalu tutup lagi demi damai batin.",
+    "verdict": "Checklist jumpscare"
+  },
+  {
+    "id": "pic-2",
+    "category": "productivity",
+    "tone": "casual",
+    "text": "Niat produktif ada, tapi badan sudah commit ke mode rebahan.",
+    "verdict": "Conflict of interest"
+  },
+  {
+    "id": "pic-3",
+    "category": "productivity",
+    "tone": "casual",
+    "text": "Aku bersihin meja dulu. Terus lemari. Terus hidupku. Tugasnya belum.",
+    "verdict": "Produktif palsu"
+  },
+  {
+    "id": "pid-1",
+    "category": "productivity",
+    "tone": "dramatic",
+    "text": "Setiap checklist yang dicentang menuntut tumbal dari jiwa kreatifku.",
+    "verdict": "Trauma to-do list"
+  },
+  {
+    "id": "pid-2",
+    "category": "productivity",
+    "tone": "dramatic",
+    "text": "Produktivitas mengetuk pintu, namun aku berpura-pura tidak di rumah.",
+    "verdict": "Drama mager"
+  },
+  {
+    "id": "pid-3",
+    "category": "productivity",
+    "tone": "dramatic",
+    "text": "Deadline memburu seperti villain, dan aku cuma NPC tanpa stamina.",
+    "verdict": "Quest gagal"
+  },
+  {
+    "id": "piu-1",
+    "category": "productivity",
+    "tone": "unhinged",
+    "text": "Pomodoro timer mulai ngomong Latin dan minta persembahan roti bakar.",
+    "verdict": "Ritual tomat"
+  },
+  {
+    "id": "piu-2",
+    "category": "productivity",
+    "tone": "unhinged",
+    "text": "To-do list-ku bertambah sendiri seperti hydra digital.",
+    "verdict": "Monster checklist"
+  },
+  {
+    "id": "piu-3",
+    "category": "productivity",
+    "tone": "unhinged",
+    "text": "Aku menunda agar timeline semesta tetap stabil.",
+    "verdict": "Pahlawan multiverse"
+  },
+  {
+    "id": "rip-1",
+    "category": "random",
+    "tone": "professional",
+    "text": "Telemetri menunjukkan interferensi getaran kentang di lingkungan sekitar.",
+    "verdict": "Resonansi karbohidrat"
+  },
+  {
+    "id": "rip-2",
+    "category": "random",
+    "tone": "professional",
+    "text": "Aktivitas ini perlu ditunda karena kondisi neuron belum memenuhi standar operasional.",
+    "verdict": "SOP braincell"
+  },
+  {
+    "id": "rip-3",
+    "category": "random",
+    "tone": "professional",
+    "text": "Saya sedang menjalani audit internal terhadap makna keberadaan.",
+    "verdict": "Existential compliance"
+  },
+  {
+    "id": "ric-1",
+    "category": "random",
+    "tone": "casual",
+    "text": "Aku bersin terus lupa tujuan hidup selama 12 menit.",
+    "verdict": "Reboot hidung"
+  },
+  {
+    "id": "ric-2",
+    "category": "random",
+    "tone": "casual",
+    "text": "Mood aku lagi kayak sinyal satu bar di basement mall.",
+    "verdict": "Low signal era"
+  },
+  {
+    "id": "ric-3",
+    "category": "random",
+    "tone": "casual",
+    "text": "Aku mau mulai, tapi tiba-tiba lapar konsep.",
+    "verdict": "Snack calling"
+  },
+  {
+    "id": "rid-1",
+    "category": "random",
+    "tone": "dramatic",
+    "text": "Semesta berbisik, ?jangan hari ini,? dan aku menghormati kosmos.",
+    "verdict": "Mandat kosmik"
+  },
+  {
+    "id": "rid-2",
+    "category": "random",
+    "tone": "dramatic",
+    "text": "Angin sore membawa kabar bahwa produktivitas telah gugur di medan rebahan.",
+    "verdict": "Elegi kasur"
+  },
+  {
+    "id": "rid-3",
+    "category": "random",
+    "tone": "dramatic",
+    "text": "Takdir menutup laptopku dengan tangan tak terlihat.",
+    "verdict": "Mitologi mager"
+  },
+  {
+    "id": "riu-1",
+    "category": "random",
+    "tone": "unhinged",
+    "text": "Gravitasi lokal menarik wajahku langsung ke bantal empuk.",
+    "verdict": "Fisika rebahan"
+  },
+  {
+    "id": "riu-2",
+    "category": "random",
+    "tone": "unhinged",
+    "text": "Semut di meja membentuk tulisan ?skip dulu bestie?.",
+    "verdict": "Pesan koloni"
+  },
+  {
+    "id": "riu-3",
+    "category": "random",
+    "tone": "unhinged",
+    "text": "Aku berubah jadi mode pesawat padahal bukan HP.",
+    "verdict": "Offline biologis"
+  }
+]

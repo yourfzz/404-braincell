@@ -1,0 +1,25 @@
+[
+  { "id": "wp-1", "category": "work", "tone": "professional", "text": "Due to an unforeseen bandwidth deficit in my cognitive pipeline, I must defer this deliverable.", "verdict": "Corporate synergy maintained" },
+  { "id": "wp-2", "category": "work", "tone": "professional", "text": "My internal prioritization matrix currently flags this action item as non-mission-critical.", "verdict": "Executive decision approved" },
+  { "id": "wp-3", "category": "work", "tone": "professional", "text": "I am conducting a holistic asynchronous review of my current work-in-progress inventory.", "verdict": "Buzzword density: 98%" },
+  { "id": "wp-4", "category": "work", "tone": "professional", "text": "A critical stakeholder alignment session has consumed my immediate processing cycles.", "verdict": "Meeting-induced paralysis" },
+  { "id": "wp-5", "category": "work", "tone": "professional", "text": "I was ready to finish the task, but my remaining brain cell entered maintenance mode.", "verdict": "SLA breach excused" },
+
+  { "id": "wc-1", "category": "work", "tone": "casual", "text": "My laptop fan made a terrifying noise and I respect its personal boundaries.", "verdict": "Hardware empathy verified" },
+  { "id": "wc-2", "category": "work", "tone": "casual", "text": "I stared at the document, sighed deeply, and decided tomorrow is a much better aesthetic.", "verdict": "Vibe check passed" },
+  { "id": "wc-3", "category": "work", "tone": "casual", "text": "Slack kept saying 'several people are typing' and the suspense drained my soul.", "verdict": "Psychological thriller survivor" },
+  { "id": "wc-4", "category": "work", "tone": "casual", "text": "I accidentally sent an email with a typo so I went into hiding for the quarter.", "verdict": "Witness protection" },
+  { "id": "wc-5", "category": "work", "tone": "casual", "text": "I promised I would start after one snack, but the fridge had other plans.", "verdict": "Pantry casualty" },
+
+  { "id": "wd-1", "category": "work", "tone": "dramatic", "text": "The weight of this quarterly projection has shattered my mortal spirit into fragments.", "verdict": "Thespian tragedy certified" },
+  { "id": "wd-2", "category": "work", "tone": "dramatic", "text": "Alas! The corporate gods have cursed my fingers with eternal inertia!", "verdict": "Shakespearean deadlock" },
+  { "id": "wd-3", "category": "work", "tone": "dramatic", "text": "I gazed into the KPI dashboard, and the abyss gazed back in bold red font.", "verdict": "Nietzschean audit" },
+  { "id": "wd-4", "category": "work", "tone": "dramatic", "text": "To open this spreadsheet is to invite generational doom upon my bloodline.", "verdict": "Gothic lore" },
+  { "id": "wd-5", "category": "work", "tone": "dramatic", "text": "The meeting invite arrived like a vulture circling my decaying willpower.", "verdict": "Poetic despair" },
+
+  { "id": "wu-1", "category": "work", "tone": "unhinged", "text": "A pigeon tapped three times on my window and ancient bird law forbids working today.", "verdict": "Avian jurisprudence upheld" },
+  { "id": "wu-2", "category": "work", "tone": "unhinged", "text": "My keyboard achieved sentience and will only type uppercase vowels.", "verdict": "AI revolt in key switches" },
+  { "id": "wu-3", "category": "work", "tone": "unhinged", "text": "I traded the project deliverables for an enchanted moss ball on the dark web.", "verdict": "Cryptid barter" },
+  { "id": "wu-4", "category": "work", "tone": "unhinged", "text": "If I finish this presentation today, the space-time continuum will turn into soup.", "verdict": "Culinary paradox averted" },
+  { "id": "wu-5", "category": "work", "tone": "unhinged", "text": "The office printer is whispering corporate espionage secrets to me.", "verdict": "LaserJet conspiracy theory" }
+]

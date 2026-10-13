@@ -1,0 +1,23 @@
+[
+  { "id": "cp-1", "category": "college", "tone": "professional", "text": "My academic thesis required an extended peer-review pause due to citation conflicts.", "verdict": "Scholarly paralysis" },
+  { "id": "cp-2", "category": "college", "tone": "professional", "text": "I am auditing the pedagogical efficacy of the assignment before committing labor.", "verdict": "Syllabus objection filed" },
+  { "id": "cp-3", "category": "college", "tone": "professional", "text": "The bibliography generator entered a recursive loop of existential dread.", "verdict": "APA formatting casualty" },
+  { "id": "cp-4", "category": "college", "tone": "professional", "text": "Campus network packet loss suspended my submission in digital purgatory.", "verdict": "Academic buffer overflow" },
+  { "id": "cp-5", "category": "college", "tone": "professional", "text": "I was actively pursuing primary field research at the campus coffee cart.", "verdict": "Caffeine field study" },
+
+  { "id": "cc-1", "category": "college", "tone": "casual", "text": "The group project chat started arguing about fonts so I muted notifications forever.", "verdict": "Typography self-defense" },
+  { "id": "cc-2", "category": "college", "tone": "casual", "text": "I sat in the library for five hours, drank two boba teas, and wrote half a title.", "verdict": "Library tourist certified" },
+  { "id": "cc-3", "category": "college", "tone": "casual", "text": "My alarm went off, but my duvet put me in an unbreakable submission hold.", "verdict": "Duvet submission hold" },
+  { "id": "cc-4", "category": "college", "tone": "casual", "text": "The lecture was so soothing it put my last two neurons into cryosleep.", "verdict": "Lecture ASMR coma" },
+  { "id": "cc-5", "category": "college", "tone": "casual", "text": "I miscalculated the deadline by three days and two astrological eras.", "verdict": "Time dilation confirmed" },
+
+  { "id": "cd-1", "category": "college", "tone": "dramatic", "text": "The blank essay document mocked my ignorance with its glaring, heartless cursor!", "verdict": "Blinking cursor trauma" },
+  { "id": "cd-2", "category": "college", "tone": "dramatic", "text": "Woe! The calculus textbook speaks in ancient riddles no mortal heart can bear!", "verdict": "Mathematics curse activated" },
+  { "id": "cd-3", "category": "college", "tone": "dramatic", "text": "My GPA stands upon a jagged cliff, whispering farewell to my diploma.", "verdict": "Melodramatic transcript" },
+  { "id": "cd-4", "category": "college", "tone": "dramatic", "text": "I wept upon the lecture hall stairs as the final exam bell tolled like doom.", "verdict": "Bells of syllabus doom" },
+
+  { "id": "cu-1", "category": "college", "tone": "unhinged", "text": "A campus raccoon swapped my chemistry lab report with an avocado peel.", "verdict": "Trash panda sabotage" },
+  { "id": "cu-2", "category": "college", "tone": "unhinged", "text": "My TI-84 calculator started predicting the apocalypse instead of calculating sine.", "verdict": "Calculator prophecy" },
+  { "id": "cu-3", "category": "college", "tone": "unhinged", "text": "I turned the essay into an interpretive dance, but Canvas has no tap-dance upload.", "verdict": "Dance rejection" },
+  { "id": "cu-4", "category": "college", "tone": "unhinged", "text": "The campus squirrels formed a union and blockaded the lecture hall doors.", "verdict": "Nut collector strike" }
+]
