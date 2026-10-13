@@ -9,13 +9,15 @@ export interface Experience {
   descriptionId?: string;
   badge: string;
   badgeId?: string;
-  badgeColor: 'primary' | 'secondary' | 'accent' | 'ink';
+  badgeColor: "primary" | "secondary" | "accent" | "ink";
   icon: string;
   path: string;
   brainDamageRating: string;
   brainDamageRatingId?: string;
-  status: 'ONLINE' | 'CHAOTIC' | 'QUESTIONABLE';
+  status: "ONLINE" | "CHAOTIC" | "QUESTIONABLE";
 }
+
+export type AppLanguage = "en" | "id";
 
 export interface ButtonEvent {
   id: number;
@@ -28,7 +30,14 @@ export interface ButtonEvent {
   toastMessage?: string;
   achievementId?: string;
   spawnSticker?: string;
-  soundType?: 'click' | 'boop' | 'screech' | 'horn' | 'party' | 'glitch' | 'pop';
+  soundType?:
+    | "click"
+    | "boop"
+    | "screech"
+    | "horn"
+    | "party"
+    | "glitch"
+    | "pop";
 }
 
 export interface MoodProfile {
@@ -47,8 +56,21 @@ export interface MoodProfile {
   soundEffect?: string;
 }
 
-export type ExcuseCategory = 'work' | 'college' | 'social' | 'productivity' | 'random';
-export type ExcuseTone = 'professional' | 'casual' | 'dramatic' | 'unhinged';
+export type ExcuseCategory =
+  | "work"
+  | "college"
+  | "social"
+  | "productivity"
+  | "random";
+export type ExcuseTone = "professional" | "casual" | "dramatic" | "unhinged";
+
+export interface Achievement {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  unlockedAt?: string;
+}
 
 export interface Excuse {
   id: string;
@@ -69,6 +91,6 @@ export interface Achievement {
 export interface ToastItem {
   id: string;
   message: string;
-  type?: 'default' | 'success' | 'alert' | 'secret' | 'warning';
+  type?: "default" | "success" | "alert" | "secret" | "warning";
   duration?: number;
 }

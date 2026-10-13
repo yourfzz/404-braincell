@@ -1,5 +1,77 @@
 import { ButtonEvent } from '@/types';
 
+export const BUTTON_EVENTS_ID: Record<number, Pick<ButtonEvent, 'label' | 'subtext' | 'toastMessage'>> = {
+  0: {
+    label: 'JANGAN DIPENCET',
+    subtext: 'Serius. Cabut pelan-pelan.',
+  },
+  1: {
+    label: 'KENAPA LO NGEPENCET?!',
+    subtext: 'Kursor slip atau emang udah niat dari awal?',
+    toastMessage: '⚠️ Korteks auditorius: gangguan minor terekam.',
+  },
+  2: {
+    label: 'BERHENTI PENCET GUE',
+    subtext: 'Gue tombol, bukan tempat curhat lo.',
+    toastMessage: '🛑 Toleransi tombol turun ke 74%.',
+  },
+  3: {
+    label: 'ADA BRAINCELL YANG RESIGN',
+    subtext: 'Udah masuk tas kecil terus keluar gedung.',
+    toastMessage: '🧠 Braincell #1 kirim resign 2 minggu.',
+  },
+  4: {
+    label: 'INI DIBAYAR GAK SIH?',
+    subtext: 'Kalau dibayar, kirim link lamarannya.',
+    toastMessage: '💼 HR masuk chat buat cek produktivitas lo.',
+  },
+  5: {
+    label: 'NGITUNG KESEMEN SAMPE KAPAN...',
+    subtext: 'Loading bar mentok di 99% selamanya.',
+    toastMessage: '⏳ Error: Buffer penyesalan penuh.',
+  },
+  6: {
+    label: 'TOMBOL LAGI NGopi',
+    subtext: 'Balik 15 menit lagi. Atau mungkin gak balik.',
+    toastMessage: '☕ Auto-reply cuti tombol aktif.',
+  },
+  7: {
+    label: 'SELAMAT: LO GAK DAPET APA-APA',
+    subtext: 'Ambil hadiah di dimensi yang gak pernah ada.',
+    toastMessage: '🎉 0 poin masuk ke akun fiktif lo!',
+  },
+  8: {
+    label: 'GRAVITASI ERROR DETEKSI',
+    subtext: 'Pegang sisa martabat lo yang tersisa.',
+    toastMessage: '🌌 Simulasi fisika dijeda buat perbaikan.',
+  },
+  9: {
+    label: 'PENCET LAGI BUAT KENTANG GRATIS',
+    subtext: 'Berlaku cuma di dimensi paralel.',
+    toastMessage: '🥔 Kentang virtual antri di memori.',
+  },
+  10: {
+    label: '10 KALIK?! TOUCH GRASS DULU',
+    subtext: 'Cahaya monitor bukan sinar matahari.',
+    toastMessage: '🌱 Sensor lingkungan: 0% tumbuhan asli.',
+  },
+  11: {
+    label: 'MASUK MODE GOOFY ABSOLUT',
+    subtext: 'Jangan atur layar, kita semua aneh di sini.',
+    toastMessage: '🤡 Ambang goofy kelewatan 400%.',
+  },
+  12: {
+    label: 'KALAU GUE MENGHILANG GIMANA?',
+    subtext: 'Kucek: gue masih di sini dan nyesel semua.',
+    toastMessage: '👻 Mode hantu disimulasi sebagian.',
+  },
+  13: {
+    label: 'LEVEL 25: PORTAL UDAH KEBUKA',
+    subtext: 'Secret room nunggu jiwa pemberontak lo.',
+    toastMessage: '🌀 Rift tersembuka menuju /secret-room!',
+  },
+};
+
 export const BUTTON_EVENTS: ButtonEvent[] = [
   {
     id: 0,

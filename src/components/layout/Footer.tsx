@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-4 pt-4 flex flex-wrap items-center gap-1.5 text-xs font-mono text-neutral-400">
           <span>
             {isIndonesian
-              ? "Dirakit oleh manusia yang seharusnya kerja:"
+              ? "Dibuat oleh manusia yang seharusnya kerja:"
               : "Built by a human who should be working:"}
           </span>
 

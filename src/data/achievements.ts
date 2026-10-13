@@ -1,5 +1,36 @@
 import { Achievement } from '@/types';
 
+export const ACHIEVEMENTS_ID: Record<string, Pick<Achievement, 'title' | 'description'>> = {
+  'first-blood': {
+    title: 'Rasa Ingin Tahu Bikin Produktivitas Mati',
+    description: 'Pencet The Button padahal udah dikasih peringatan jangan disentuh.',
+  },
+  'curiosity-killed-the-cat': {
+    title: 'Overthinker Kronis',
+    description: 'Pencet The Button 10 kali. Keyboard lo layak dapat bonus bahaya.',
+  },
+  'button-masher': {
+    title: 'Penantang Otoritas',
+    description: 'Sampai 25 klik di The Button. Ngeyel total sama aturan.',
+  },
+  'mood-master': {
+    title: 'Petualang Eksistensial',
+    description: 'Racik banyak arketipe absurd pakai Mood Machine.',
+  },
+  'excuse-artist': {
+    title: 'Pembolos Bersertifikat',
+    description: 'Bikin alasan anti tembus buat kabur dari semua tanggung jawab.',
+  },
+  'found-secret': {
+    title: 'Hacker Nol Besar',
+    description: 'Menemukan dan menyusup ke Brankas Rahasia 404 Braincell.',
+  },
+  'brain-recharged': {
+    title: 'Overclocker Neuron',
+    description: 'Tap braincell kosmik rahasia buat overclock gelombang otak baseline.',
+  },
+};
+
 export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'first-blood',
