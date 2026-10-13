@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="w-full bg-[#171717] text-[#F7F3E8] border-t-2 border-[#171717] mt-auto">
       <div className="max-w-6xl mx-auto px-4 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
         <div className="flex flex-col gap-2 max-w-md">
-          <div className="flex items-center gap-2">
+          <div className="flex justify-center md:justify-start items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-[#FF5C35] border border-white flex items-center justify-center text-white">
               <Brain className="w-4 h-4" />
             </div>
@@ -28,14 +28,14 @@ export default function Footer() {
               v1.0
             </span>
           </div>
-          <p className="text-sm text-neutral-400 font-medium leading-relaxed">
+          <p className="text-sm text-center md:text-left text-neutral-400 font-medium leading-relaxed">
             {isIndonesian
               ? "Safe haven buat overthinker yang kerjanya nanti terus. Zero backend, zero cookies, dan dijamin 0% bikin KPI kuartalanmu naik."
               : "A safe haven for overthinkers and underachievers. Zero backend, zero cookies, and guaranteed 0% boost to your quarterly KPIs."}
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center gap-4 md:gap-6 font-bold text-sm">
+        <div className="flex justify-center md:justify-start flex-wrap items-center gap-3 md:gap-6 font-bold text-sm">
           <Link
             href="/#experiences"
             className="hover:text-[#D7FF64] transition-colors"
@@ -76,46 +76,59 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-neutral-800">
-        <div className="max-w-6xl mx-auto px-4 pt-4 flex flex-wrap items-center gap-1.5 text-xs font-mono text-neutral-400">
-          <span>
-            {isIndonesian
-              ? "Dibuat oleh manusia yang seharusnya kerja:"
-              : "Built by a human who should be working:"}
-          </span>
+        {/* Creator */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-5 pb-3">
+          <div className="flex flex-wrap justify-center md:justify-start items-center gap-x-1.5 gap-y-1 text-xs font-mono text-neutral-400">
+            <span>
+              {isIndonesian
+                ? "Dibuat oleh manusia yang seharusnya kerja:"
+                : "Built by a human who should be working:"}
+            </span>
 
-          <Link
-            href="https://www.instagram.com/yourfzz_/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 font-bold text-[#F7F3E8] hover:text-[#D7FF64] transition-colors"
-          >
-            Hafidz Alif R.
-            <span aria-hidden="true">↗</span>
-          </Link>
+            <Link
+              href="https://www.instagram.com/yourfzz_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-bold text-[#F7F3E8] hover:text-[#D7FF64] transition-colors"
+            >
+              Hafidz Alif R.
+              <span aria-hidden="true">↗</span>
+            </Link>
+          </div>
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-start md:items-center justify-start md:justify-between gap-2 text-xs font-mono text-neutral-400">
-          <div className="flex items-start gap-1.5">
-            <span className="text-base leading-none font-bold mt-0.5">©</span>
+        {/* Copyright & Status */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+            {/* Copyright */}
+            <div className="flex items-start justify-center sm:justify-start gap-2 text-xs font-mono text-neutral-400">
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-1 gap-y-1 text-center sm:text-left">
+                <span className="text-base leading-none font-bold shrink-0 mt-1">
+                  ©
+                </span>
+                <span>{currentYear} - 404 Braincell.</span>
 
-            <div className="flex flex-wrap items-center gap-x-1">
-              <span>{currentYear} - 404 Braincell.</span>
+                <span>
+                  {isIndonesian
+                    ? "Powered by kopi & zero ekspektasi."
+                    : "Powered by caffeine & zero expectations."}
+                </span>
+              </div>
+            </div>
+
+            {/* System Status */}
+            <div className="hidden md:flex items-start gap-2 text-xs font-mono text-neutral-400">
+              <span className="relative flex h-2 w-2 shrink-0 mt-1">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-[#D7FF64] opacity-60 animate-ping" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-[#D7FF64]" />
+              </span>
 
               <span>
                 {isIndonesian
-                  ? "Powered by kopi & zero ekspektasi."
-                  : "Powered by caffeine & zero expectations."}
+                  ? "Semua sistem jalan di level absurditas normal"
+                  : "All systems running at nominal absurdity"}
               </span>
             </div>
-          </div>
-
-          <div className="hidden md:flex items-start gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-[#D7FF64] animate-pulse mt-1"></span>
-            <span>
-              {isIndonesian
-                ? "Semua sistem jalan di level absurditas normal"
-                : "All systems running at nominal absurdity"}
-            </span>
           </div>
         </div>
       </div>

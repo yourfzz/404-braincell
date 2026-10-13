@@ -1,10 +1,17 @@
-'use client';
+"use client";
 
-import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { safeGetStorage, safeSetStorage, STORAGE_KEYS } from '@/lib/storage';
-import { sound } from '@/lib/sound';
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+import { safeGetStorage, safeSetStorage, STORAGE_KEYS } from "@/lib/storage";
+import { sound } from "@/lib/sound";
 
-export type AppLanguage = 'en' | 'id';
+export type AppLanguage = "en" | "id";
 
 interface LangContextValue {
   lang: AppLanguage;
@@ -16,14 +23,16 @@ interface LangContextValue {
 const LangContext = createContext<LangContextValue | undefined>(undefined);
 
 function normalizeLang(value: unknown): AppLanguage {
-  return value === 'id' ? 'id' : 'en';
+  return value === "en" ? "en" : "id";
 }
 
 export function LangProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = useState<AppLanguage>('en');
+  const [lang, setLangState] = useState<AppLanguage>("id");
 
   useEffect(() => {
-    setLangState(normalizeLang(safeGetStorage<AppLanguage>(STORAGE_KEYS.LANGUAGE, 'en')));
+    setLangState(
+      normalizeLang(safeGetStorage<AppLanguage>(STORAGE_KEYS.LANGUAGE, "id")),
+    );
   }, []);
 
   useEffect(() => {
@@ -38,15 +47,20 @@ export function LangProvider({ children }: { children: React.ReactNode }) {
 
   const toggleLang = useCallback(() => {
     setLangState((currentLang) => {
-      const nextLang = currentLang === 'en' ? 'id' : 'en';
-      sound.playBoop(nextLang === 'id' ? 520 : 420);
+      const nextLang = currentLang === "en" ? "id" : "en";
+      sound.playBoop(nextLang === "id" ? 520 : 420);
       safeSetStorage(STORAGE_KEYS.LANGUAGE, nextLang);
       return nextLang;
     });
   }, []);
 
   const value = useMemo(
-    () => ({ lang, isIndonesian: lang === 'id', setLang, toggleLang }),
+    () => ({
+      lang,
+      isIndonesian: lang === "id",
+      setLang,
+      toggleLang,
+    }),
     [lang, setLang, toggleLang],
   );
 
@@ -55,8 +69,10 @@ export function LangProvider({ children }: { children: React.ReactNode }) {
 
 export function useLang() {
   const context = useContext(LangContext);
+
   if (!context) {
-    throw new Error('useLang must be used within a LangProvider');
+    throw new Error("useLang must be used within a LangProvider");
   }
+
   return context;
 }
