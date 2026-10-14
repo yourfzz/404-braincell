@@ -21,8 +21,8 @@ export default function SecretRoomExperience() {
 
   const t = isIndonesian
     ? {
-        back: "Kembali ke Dunia Nyata",
-        vault: "BRANKAS_RAHASIA.EXE",
+        back: "Kembali ke Realita",
+        vault: "SECRET_VAULT.EXE",
         access: "AKSES TERBATAS",
         titleStart: "KAMU MENEMUKAN",
         titleHighlight: "LAB RAHASIA",
