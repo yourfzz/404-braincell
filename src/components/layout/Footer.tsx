@@ -4,10 +4,32 @@ import React from "react";
 import Link from "next/link";
 import { Brain } from "lucide-react";
 import { useLang } from "@/contexts/LangContext";
+import { useRouter } from "next/navigation";
+import { sound } from "@/lib/sound";
 
 export default function Footer() {
   const [currentYear, setCurrentYear] = React.useState(2026);
   const { isIndonesian } = useLang();
+
+  const router = useRouter();
+
+  const [secretClicks, setSecretClicks] = React.useState(0);
+  const [secretRevealed, setSecretRevealed] = React.useState(false);
+
+  const handleSecretClick = () => {
+    sound.playBoop(440);
+    if (secretRevealed) {
+      router.push("/secret-lab");
+      return;
+    }
+
+    const nextClicks = secretClicks + 1;
+    setSecretClicks(nextClicks);
+
+    if (nextClicks >= 5) {
+      setSecretRevealed(true);
+    }
+  };
 
   React.useEffect(() => {
     setCurrentYear(new Date().getFullYear());
@@ -107,12 +129,34 @@ export default function Footer() {
                   ©
                 </span>
                 <span>{currentYear} - 404 Braincell.</span>
-
-                <span>
+                {/* <span>
                   {isIndonesian
                     ? "Powered by kopi & zero ekspektasi."
                     : "Powered by caffeine & zero expectations."}
-                </span>
+                </span> */}
+
+                <button
+                  type="button"
+                  onClick={handleSecretClick}
+                  className={`text-left transition-colors duration-300 ${
+                    secretRevealed
+                      ? "text-[#D7FF64] font-bold cursor-pointer animate-pulse"
+                      : "hover:text-neutral-300 cursor-default"
+                  }`}
+                  aria-label={
+                    isIndonesian
+                      ? "Pesan rahasia footer"
+                      : "Footer secret message"
+                  }
+                >
+                  {secretRevealed
+                    ? isIndonesian
+                      ? "⚠ BRAIN CELL UNLOCKED. MASUK?"
+                      : "⚠ BRAIN CELL UNLOCKED. ENTER?"
+                    : isIndonesian
+                      ? "Powered by kopi & zero ekspektasi."
+                      : "Powered by caffeine & zero expectations."}
+                </button>
               </div>
             </div>
 
