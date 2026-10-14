@@ -119,7 +119,7 @@ export default function ExperienceGrid() {
 
         {/* Easter Egg / Secret Room Callout Card */}
         <div className="mt-10 p-6 rounded-2xl border-2 border-dashed border-[#171717] bg-[#FFFDF9] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4 text-center sm:text-left">
+          <div className="flex flex-col md:flex-row items-center gap-4 text-center sm:text-left">
             <div className="w-12 h-12 rounded-xl bg-[#7957FF] border-2 border-[#171717] text-white flex items-center justify-center text-xl shrink-0">
               🕵️
             </div>

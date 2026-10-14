@@ -50,7 +50,7 @@ export default function Footer() {
               v1.0
             </span>
           </div>
-          <p className="text-sm text-center md:text-left text-neutral-400 font-medium leading-relaxed">
+          <p className="text-xs md:text-sm text-center md:text-left text-neutral-400 font-medium leading-relaxed">
             {isIndonesian
               ? "Safe haven buat overthinker yang kerjanya nanti terus. Zero backend, zero cookies, dan dijamin 0% bikin KPI kuartalanmu naik."
               : "A safe haven for overthinkers and underachievers. Zero backend, zero cookies, and guaranteed 0% boost to your quarterly KPIs."}
