@@ -3,6 +3,7 @@ import HeroSection from "@/components/playground/HeroSection";
 import BrainStatusTicker from "@/components/playground/BrainStatusTicker";
 import ExperienceGrid from "@/components/playground/ExperienceGrid";
 import InteractiveSandbox from "@/components/playground/InteractiveSandbox";
+import BraincellHRSection from "@/components/playground/BrancellHR";
 
 export const metadata: Metadata = {
   title:
@@ -25,6 +26,7 @@ export default function HomePage() {
       <BrainStatusTicker />
       <ExperienceGrid />
       <InteractiveSandbox />
+      <BraincellHRSection />
     </main>
   );
 }
